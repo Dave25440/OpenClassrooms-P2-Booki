@@ -110,6 +110,10 @@ input:focus {
     padding: 15px 16px;
 }
 
+.button-mobile {
+    display: none;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
