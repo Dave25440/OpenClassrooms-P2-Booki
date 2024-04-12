@@ -100,7 +100,7 @@ input:focus {
     outline: none;
 }
 
-button {
+.button-desktop {
     background-color: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0 15px 15px 0;
@@ -244,4 +244,15 @@ button {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    .button-desktop {
+        display: none;
+    }
+
+    .button-mobile {
+        background-color: #0065FC;
+        border: 1px solid #0065FC;
+        border-radius: 0 15px 15px 0;
+        color: white;
+        padding: 15px 16px;
+    }
 }
