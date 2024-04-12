@@ -75,6 +75,11 @@ a {
     gap: 8px;
 }
 
+form {
+    display: flex;
+    gap: 24px;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
