@@ -77,7 +77,12 @@ a {
 
 form {
     display: flex;
-    gap: 24px;
+}
+
+label {
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0 0 15px;
 }
 
 .section-title {
