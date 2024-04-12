@@ -66,6 +66,7 @@ a {
     display: flex;
     flex-flow: column wrap;
     gap: 35px;
+    margin-top: 35px;
 }
 
 .headline {
