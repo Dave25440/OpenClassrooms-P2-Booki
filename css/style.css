@@ -248,6 +248,10 @@ input:focus {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    input {
+        border-right: 0;
+    }
+    
     .button-desktop {
         display: none;
     }
