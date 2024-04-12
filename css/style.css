@@ -47,8 +47,9 @@ nav {
 nav div {
     display: flex;
     flex-wrap: wrap;
-    height: 35px;
+    height: 33px;
     align-items: flex-end;
+    border-top: 2px solid white;
 }
 
 nav div:hover {
