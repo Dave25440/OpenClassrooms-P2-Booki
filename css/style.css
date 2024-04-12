@@ -43,6 +43,8 @@ nav {
     flex-wrap: wrap;
     font-size: 16px;
     gap: 68px;
+    height: 35px;
+    align-items: flex-end;
 }
 
 a {
