@@ -253,6 +253,7 @@ input:focus {
     }
 
     .button-mobile {
+        display: block;
         background-color: #0065FC;
         border: 1px solid #0065FC;
         border-radius: 0 15px 15px 0;
