@@ -96,6 +96,10 @@ input {
     text-align: center;
 }
 
+input:focus {
+    outline: none;
+}
+
 button {
     background-color: #0065FC;
     border: 1px solid #0065FC;
