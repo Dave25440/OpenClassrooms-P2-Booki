@@ -47,6 +47,10 @@ nav {
     align-items: flex-end;
 }
 
+nav a:hover {
+    color: #0065FC;
+}
+
 a {
     color: inherit;
     text-decoration: none;
