@@ -30,7 +30,6 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 20px 0;
 }
 
 header img {
@@ -39,9 +38,11 @@ header img {
     gap: 10px;
 }
 
-nav a {
-    margin-left: 60px;
+nav {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 16px;
+    gap: 68px;
 }
 
 a {
