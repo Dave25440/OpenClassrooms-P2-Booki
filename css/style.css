@@ -85,6 +85,13 @@ label {
     border-radius: 15px 0 0 15px;
 }
 
+input {
+    border: 1px solid #F2F2F2;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
