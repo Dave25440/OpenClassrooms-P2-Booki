@@ -138,6 +138,15 @@ input:focus {
     align-items: center;
 }
 
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 50px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
