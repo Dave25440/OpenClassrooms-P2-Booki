@@ -91,6 +91,10 @@ label {
     width: 50px;
 }
 
+.fa-location-dot {
+    color: black;
+}
+
 input {
     border: 1px solid #F2F2F2;
     font-size: 18px;
@@ -114,6 +118,10 @@ input:focus {
 
 .button-mobile {
     display: none;
+}
+
+.fa-magnifying-glass {
+    color: white;
 }
 
 .section-title {
