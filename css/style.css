@@ -127,8 +127,8 @@ input:focus {
 .filterbar {
     display: flex;
     padding-left: 0;
+    height: 50px;
     gap: 15px;
-    font-size: 18px;
     font-weight: 700;
 }
 
@@ -136,17 +136,18 @@ input:focus {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    font-size: 18px;
 }
 
 .filter {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    height: 50px;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     gap: 10px;
     padding: 4px 19px;
+    font-size: 17px;
 }
 
 .section-title {
