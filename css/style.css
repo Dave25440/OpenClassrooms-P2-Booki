@@ -153,6 +153,14 @@ input:focus {
     background-color: #DEEBFF;
 }
 
+.infobar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    height: 24px;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
