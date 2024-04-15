@@ -249,11 +249,16 @@ input:focus {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */    
+    /* ... */
+    form {
+        border-radius: 15px;
+        box-shadow: 0 0 0 1px #F2F2F2 inset;
+    }
+
     input {
         border-right: 0;
     }
-    
+
     .button-desktop {
         display: none;
     }
