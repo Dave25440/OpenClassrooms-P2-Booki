@@ -124,6 +124,20 @@ input:focus {
     color: white;
 }
 
+.filterbar {
+    display: flex;
+    padding-left: 0;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.filtres {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
