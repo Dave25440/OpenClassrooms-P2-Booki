@@ -38,13 +38,13 @@ header img {
     gap: 10px;
 }
 
-nav {
+nav ul {
     display: flex;
     font-size: 16px;
     gap: 68px;
 }
 
-nav div {
+nav li {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -54,7 +54,7 @@ nav div {
     align-items: flex-end;
 }
 
-nav div:hover {
+nav li:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
 }
