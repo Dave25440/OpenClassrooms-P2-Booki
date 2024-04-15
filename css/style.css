@@ -145,6 +145,8 @@ input:focus {
     height: 50px;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
+    gap: 10px;
+    padding: 4px 19px;
 }
 
 .section-title {
