@@ -149,6 +149,10 @@ input:focus {
     font-size: 17px;
 }
 
+.filter:hover {
+    background-color: #DEEBFF;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
