@@ -197,6 +197,11 @@ input:focus {
     color: var(--main-bg-color)
 }
 
+.card-more {
+    font-size: 18px;
+    margin-top: 33px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
