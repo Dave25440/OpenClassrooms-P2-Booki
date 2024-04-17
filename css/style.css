@@ -325,4 +325,21 @@ input:focus {
         padding: 15px 16px;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     }
+
+    .filterbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        font-weight: 700;
+    }
+    
+    .filtertitle {
+        font-size: 18px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    .filter {
+        font-size: 14px;
+    }
 }
