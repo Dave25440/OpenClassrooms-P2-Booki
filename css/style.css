@@ -217,15 +217,17 @@ input:focus {
 
 .hebergements-cards {
     display: flex;
-    justify-content: space-between;
     gap: 30px;
+}
+
+.hebergements-cards a {
+    flex: 1;
 }
 
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
     margin-top: 33px;
-    width: 250px;
 }
 
 .hebergements-cards img {
