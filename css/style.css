@@ -225,6 +225,7 @@ input:focus {
     display: flex;
     flex-direction: column;
     margin-top: 33px;
+    width: 250px;
 }
 
 .hebergements-cards img {
