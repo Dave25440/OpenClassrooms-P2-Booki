@@ -215,6 +215,12 @@ input:focus {
     width: 65%;
 }
 
+.hebergements-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
@@ -222,8 +228,8 @@ input:focus {
 }
 
 .hebergements-cards img {
-    width: 33%;
-    height: 124px;
+    width: 100%;
+    height: 114px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -238,11 +244,11 @@ input:focus {
 
 .hebergements-cards .card-title {
     margin-top: 10px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 .hebergements-cards .card-subtitle {
-    margin: 0;
+    margin-bottom: 4px;
 }
 
 .hebergements-cards .card-rating {
