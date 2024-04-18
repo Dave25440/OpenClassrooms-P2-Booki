@@ -32,9 +32,17 @@ header {
     justify-content: space-between;
 }
 
-header img {
-    width: 61px;
+.logo {
     padding: 30px 0;
+}
+
+.logo a {
+    display: block;
+    height: 19px;
+}
+
+.logo img {
+    width: 61px;
 }
 
 .menu {
