@@ -93,14 +93,14 @@ a {
     color: black;
 }
 
-.searchbar input {
+.searchinput {
     border: 1px solid var(--main-bg-color);
     font-size: 18px;
     font-weight: 700;
     text-align: center;
 }
 
-.searchbar input:focus {
+.searchinput:focus {
     outline: none;
 }
 
@@ -407,7 +407,7 @@ footer {
         box-shadow: 0 0 0 1px var(--main-bg-color) inset;
     }
 
-    .searchbar input {
+    .searchinput {
         border-right: 0;
     }
 
