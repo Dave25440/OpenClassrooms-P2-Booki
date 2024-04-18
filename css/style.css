@@ -195,7 +195,7 @@ input:focus {
     color: var(--main-bg-color)
 }
 
-.card-more {
+.section-more {
     font-size: 18px;
     margin-top: 33px;
 }
@@ -306,8 +306,28 @@ input:focus {
     margin-bottom: 5px;
 }
 
+/****** Activites ***********/
+.activites {
+    width: 100%;
+    padding: 30px;
+    margin: 35px 0;
+    box-sizing: border-box;
+}
 
+.activites-cards {
+    display: flex;
+    gap: 30px;
+}
 
+.activites-cards a {
+    flex: 1;
+}
+
+.activites-cards .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
