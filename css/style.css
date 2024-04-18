@@ -341,6 +341,10 @@ input:focus {
     padding: 20px 19px;
 }
 
+footer {
+    background-color: var(--main-bg-color);
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
