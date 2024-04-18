@@ -105,7 +105,7 @@ a {
     border: 1px solid var(--main-bg-color);
     font-size: 18px;
     font-weight: 700;
-    text-align: center;
+    padding-left: 24px;
 }
 
 .searchinput:focus {
