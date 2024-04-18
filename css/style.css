@@ -200,6 +200,10 @@ a {
     margin-top: 33px;
 }
 
+.section-more:hover {
+    color: var(--main-color);
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -360,6 +364,10 @@ footer {
 
 .footer-title {
     font-size: 18px;
+}
+
+.footer-column a:hover {
+    color: var(--main-color);
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
