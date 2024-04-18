@@ -345,6 +345,15 @@ footer {
     background-color: var(--main-bg-color);
 }
 
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 20px;
+    list-style-type: none;
+    gap: 15px;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
