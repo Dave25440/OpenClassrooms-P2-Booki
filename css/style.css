@@ -354,6 +354,10 @@ footer {
     gap: 15px;
 }
 
+.footer-title {
+    font-size: 18px;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
