@@ -35,16 +35,16 @@ header {
 header img {
     width: 61px;
     padding: 30px 0;
-    gap: 10px;
 }
 
-nav ul {
+.menu {
     display: flex;
     font-size: 16px;
+    padding-left: 0;
     gap: 68px;
 }
 
-nav li {
+.menu li {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -52,9 +52,9 @@ nav li {
     align-items: flex-end;
 }
 
-nav li:hover {
-    color: #0065FC;
-    border-top: 2px solid #0065FC;
+.menu li:hover {
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
 }
 
 a {
@@ -62,11 +62,11 @@ a {
     text-decoration: none;
 }
 
-.search {
+.infogroup {
     display: flex;
     flex-flow: column wrap;
     gap: 35px;
-    margin: 35px 0;
+    margin-top: 35px;
 }
 
 .headline {
@@ -75,14 +75,14 @@ a {
     gap: 8px;
 }
 
-form {
+.searchbar {
     display: flex;
 }
 
-label {
+.searchbar label {
     display: flex;
-    background-color: #F2F2F2;
-    border: 1px solid #F2F2F2;
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--main-bg-color);
     border-radius: 15px 0 0 15px;
     justify-content: center;
     align-items: center;
@@ -93,20 +93,20 @@ label {
     color: black;
 }
 
-input {
-    border: 1px solid #F2F2F2;
+.searchbar input {
+    border: 1px solid var(--main-bg-color);
     font-size: 18px;
     font-weight: 700;
     text-align: center;
 }
 
-input:focus {
+.searchbar input:focus {
     outline: none;
 }
 
 .button-desktop {
-    background-color: #0065FC;
-    border: 1px solid #0065FC;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
     border-radius: 0 15px 15px 0;
     color: white;
     font-size: 18px;
@@ -148,7 +148,7 @@ input:focus {
 }
 
 .filter:hover {
-    background-color: #DEEBFF;
+    background-color: var(--filter-bg-color);
 }
 
 .infobar {
@@ -192,7 +192,7 @@ input:focus {
 }
 
 .neutral-star {
-    color: var(--main-bg-color)
+    color: var(--main-bg-color);
 }
 
 .section-more {
@@ -204,6 +204,7 @@ input:focus {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-top: 35px;
 }
 
 .hebergements-and-populaires section {
@@ -310,7 +311,7 @@ input:focus {
 .activites {
     width: 100%;
     padding: 30px;
-    margin: 35px 0;
+    margin-top: 35px;
     box-sizing: border-box;
 }
 
@@ -341,9 +342,11 @@ input:focus {
     padding: 20px 19px;
 }
 
+/****** Footer ***********/
 footer {
     display: flex;
     background-color: var(--main-bg-color);
+    margin-top: 35px;
 }
 
 .footer-column {
@@ -399,12 +402,12 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
-    form {
+    .searchbar {
         border-radius: 15px;
-        box-shadow: 0 0 0 1px #F2F2F2 inset;
+        box-shadow: 0 0 0 1px var(--main-bg-color) inset;
     }
 
-    input {
+    .searchbar input {
         border-right: 0;
     }
 
@@ -414,8 +417,8 @@ footer {
 
     .button-mobile {
         display: block;
-        background-color: #0065FC;
-        border: 1px solid #0065FC;
+        background-color: var(--main-color);
+        border: 1px solid var(--main-color);
         border-radius: 15px;
         color: white;
         padding: 15px 16px;
