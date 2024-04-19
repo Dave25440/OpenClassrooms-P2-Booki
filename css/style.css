@@ -461,10 +461,6 @@ footer {
         margin-top: 15px;
     }
 
-    .section-title {
-        margin-bottom: 15px;
-    }
-
     /****** Header ***********/
     header {
         flex-direction: column;
@@ -573,6 +569,10 @@ footer {
     /****** Activites ***********/
     .activites {
         margin-top: 30px;
+    }
+
+    .activites .section-title {
+        margin-bottom: 15px;
     }
 
     .activites-cards {
