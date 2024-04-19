@@ -451,6 +451,7 @@ footer {
 
     .searchinput {
         border-right: 0;
+        flex: 1;
     }
 
     .button-desktop {
