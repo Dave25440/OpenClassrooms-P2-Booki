@@ -456,6 +456,16 @@ footer {
         padding: 0;
     }
 
+    /****** Info Group ***********/
+    .infogroup {
+        padding: 0 20px;
+    }
+
+    /****** Hebergements And Populaires ***********/
+    .hebergements-and-populaires section {
+        padding: 30px 20px;
+    }
+
     /****** Header ***********/
     header {
         flex-direction: column;
@@ -515,5 +525,10 @@ footer {
 
     .filter {
         font-size: 14px;
+    }
+
+    /****** Footer ***********/
+    .footer-column {
+        padding: 30px;
     }
 }
