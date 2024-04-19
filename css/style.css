@@ -580,6 +580,15 @@ footer {
         margin-top: 15px;
     }
 
+    .activites-cards img {
+        height: 141px;
+    }
+
+    .activites-cards .card-title {
+        padding: 20px 19px;
+        height: auto;
+    }
+
     /****** Footer ***********/
     footer {
         margin-top: 30px;
