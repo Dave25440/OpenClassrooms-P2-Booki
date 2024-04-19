@@ -461,6 +461,10 @@ footer {
         margin-top: 15px;
     }
 
+    .section-title {
+        margin-bottom: 15px;
+    }
+
     /****** Header ***********/
     header {
         flex-direction: column;
