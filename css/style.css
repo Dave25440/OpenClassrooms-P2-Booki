@@ -500,9 +500,7 @@ footer {
     }
 
     .searchinput {
-        background-color: white;
         border-right: 0;
-        border-radius: 0;
         flex: 1;
     }
 
