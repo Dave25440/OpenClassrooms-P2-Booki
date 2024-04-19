@@ -524,6 +524,7 @@ footer {
     /****** Hebergements And Populaires ***********/
     .hebergements-and-populaires section {
         padding: 30px 20px;
+        border-radius: 0;
     }
 
     /****** Hebergements ***********/
@@ -534,6 +535,15 @@ footer {
     /****** Populaires ***********/
     .populaires {
         order: 1;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .populaires-cards .card {
+        margin-top: 15px;
     }
 
     /****** Footer ***********/
