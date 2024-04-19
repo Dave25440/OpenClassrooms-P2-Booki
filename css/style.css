@@ -458,16 +458,8 @@ footer {
     .filterbar {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 15px;
-        font-weight: 700;
     }
-    
-    .filtertitle {
-        font-size: 18px;
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
-    
+
     .filter {
         font-size: 14px;
     }
