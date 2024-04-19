@@ -451,6 +451,11 @@ footer {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    /****** General ***********/
+    .main-container {
+        padding: 0;
+    }
+
     /****** Header ***********/
     header {
         flex-direction: column;
