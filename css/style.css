@@ -420,11 +420,11 @@ footer {
         flex: 1;
     }
 
-    .populaires-cards .card-title {
+    .card-title {
         font-size: 14px;
     }
 
-    .populaires-cards .card-subtitle {
+    .card-subtitle {
         font-size: 13px;
     }
 }
