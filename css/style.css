@@ -461,10 +461,15 @@ footer {
         width: 100%;
     }
 
+    .menu {
+        gap: 0;
+    }
+
     .menu li {
         width: 100%;
         justify-content: center;
         align-items: flex-start;
+        border-bottom: 2px solid var(--main-bg-color);
     }
 
     .menu li:hover {
