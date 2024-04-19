@@ -392,6 +392,10 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .filterblock {
+        flex-direction: column;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
