@@ -571,6 +571,15 @@ footer {
         margin-top: 30px;
     }
 
+    .activites-cards {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .activites-cards .card {
+        margin-top: 15px;
+    }
+
     /****** Footer ***********/
     footer {
         margin-top: 30px;
