@@ -394,6 +394,7 @@ footer {
 @media (max-width: 1024px) {
     .filterblock {
         flex-direction: column;
+        gap: 20px;
     }
 
     .hebergements-and-populaires {
@@ -412,11 +413,11 @@ footer {
     .populaires-cards {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        gap: 20px;
     }
 
     .populaires-cards a {
-        width: 30%;
+        flex: 1;
     }
 
     .populaires-cards .card-title {
