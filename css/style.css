@@ -146,6 +146,7 @@ header {
 }
 
 .searchinput {
+    background-color: white;
     border: 1px solid var(--main-bg-color);
     font-size: 18px;
     font-weight: 700;
