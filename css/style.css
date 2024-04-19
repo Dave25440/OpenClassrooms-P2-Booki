@@ -431,6 +431,13 @@ footer {
     .activites-cards img {
         height: 200px;
     }
+
+    .activites-cards .card-title {
+        display: flex;
+        align-items: center;
+        padding: 0 19px;
+        height: 70px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
