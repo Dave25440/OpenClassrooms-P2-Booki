@@ -146,7 +146,6 @@ header {
 }
 
 .searchinput {
-    background-color: white;
     border: 1px solid var(--main-bg-color);
     font-size: 18px;
     font-weight: 700;
@@ -501,7 +500,9 @@ footer {
     }
 
     .searchinput {
+        background-color: white;
         border-right: 0;
+        border-radius: 0;
         flex: 1;
     }
 
