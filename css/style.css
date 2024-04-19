@@ -129,17 +129,21 @@ a {
     color: white;
 }
 
-.filterbar {
+.filterblock {
     display: flex;
-    padding-left: 0;
     gap: 15px;
-    font-weight: 700;
 }
 
 .filtertitle {
     display: flex;
     align-items: center;
     font-size: 18px;
+}
+
+.filterbar {
+    display: flex;
+    padding-left: 0;
+    gap: 15px;
 }
 
 .filter {
@@ -151,6 +155,7 @@ a {
     gap: 10px;
     padding: 4px 19px;
     font-size: 17px;
+    font-weight: 700;
 }
 
 .filter:hover {
