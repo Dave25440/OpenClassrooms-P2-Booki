@@ -97,7 +97,6 @@ header {
 
 .menu {
     display: flex;
-    font-size: 16px;
     padding-left: 0;
     gap: 68px;
 }
@@ -228,7 +227,6 @@ header {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
-    margin-top: 35px;
 }
 
 .hebergements-and-populaires section {
@@ -241,6 +239,7 @@ header {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    margin-top: 35px;
 }
 
 .hebergements-cards {
@@ -289,6 +288,7 @@ header {
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    margin-top: 35px;
 }
 
 .populaires-title {
@@ -456,16 +456,6 @@ footer {
         padding: 0;
     }
 
-    /****** Info Group ***********/
-    .infogroup {
-        padding: 0 20px;
-    }
-
-    /****** Hebergements And Populaires ***********/
-    .hebergements-and-populaires section {
-        padding: 30px 20px;
-    }
-
     /****** Header ***********/
     header {
         flex-direction: column;
@@ -494,6 +484,10 @@ footer {
     }
 
     /****** Info Group ***********/
+    .infogroup {
+        padding: 0 20px;
+    }
+
     .searchbar {
         border-radius: 15px;
         box-shadow: 0 0 0 1px var(--main-bg-color) inset;
@@ -525,6 +519,21 @@ footer {
 
     .filter {
         font-size: 14px;
+    }
+
+    /****** Hebergements And Populaires ***********/
+    .hebergements-and-populaires section {
+        padding: 30px 20px;
+    }
+
+    /****** Hebergements ***********/
+    .hebergements {
+        order: 2;
+    }
+
+    /****** Populaires ***********/
+    .populaires {
+        order: 1;
     }
 
     /****** Footer ***********/
