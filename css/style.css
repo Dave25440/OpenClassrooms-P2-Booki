@@ -595,6 +595,7 @@ footer {
 
     /****** Footer ***********/
     footer {
+        flex-direction: column;
         margin-top: 30px;
     }
 
