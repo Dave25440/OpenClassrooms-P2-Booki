@@ -397,6 +397,14 @@ footer {
         gap: 20px;
     }
 
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-subtitle {
+        font-size: 13px;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -420,12 +428,8 @@ footer {
         flex: 1;
     }
 
-    .card-title {
-        font-size: 14px;
-    }
-
-    .card-subtitle {
-        font-size: 13px;
+    .activites-cards img {
+        height: 200px;
     }
 }
 
