@@ -28,7 +28,7 @@ body {
 
 header {
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -54,7 +54,6 @@ header {
 
 .menu li {
     display: flex;
-    flex-wrap: wrap;
     box-sizing: border-box;
     height: 35px;
     align-items: flex-end;
@@ -72,14 +71,14 @@ a {
 
 .infogroup {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     gap: 35px;
     margin-top: 35px;
 }
 
 .headline {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     gap: 8px;
 }
 
@@ -132,7 +131,6 @@ a {
 
 .filterbar {
     display: flex;
-    flex-wrap: wrap;
     padding-left: 0;
     gap: 15px;
     font-weight: 700;
