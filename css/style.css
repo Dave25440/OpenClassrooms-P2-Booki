@@ -457,6 +457,22 @@ footer {
         align-items: center;
     }
 
+    header nav {
+        width: 100%;
+    }
+
+    .menu li {
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .menu li:hover {
+        color: var(--main-color);
+        border-top: 0;
+        border-bottom: 2px solid var(--main-color);
+    }
+
     /****** Info Group ***********/
     .searchbar {
         border-radius: 15px;
