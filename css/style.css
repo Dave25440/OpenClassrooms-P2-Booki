@@ -229,7 +229,8 @@ header {
     justify-content: space-between;
 }
 
-.hebergements-and-populaires section {
+.hebergements,
+.populaires {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
@@ -456,6 +457,10 @@ footer {
         padding: 0;
     }
 
+    .section-more {
+        margin-top: 15px;
+    }
+
     /****** Header ***********/
     header {
         flex-direction: column;
@@ -522,19 +527,31 @@ footer {
     }
 
     /****** Hebergements And Populaires ***********/
-    .hebergements-and-populaires section {
-        padding: 30px 20px;
+    .hebergements,
+    .populaires {
         border-radius: 0;
     }
 
     /****** Hebergements ***********/
     .hebergements {
         order: 2;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .hebergements-cards {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hebergements-cards .card {
+        margin-top: 15px;
     }
 
     /****** Populaires ***********/
     .populaires {
         order: 1;
+        padding: 30px 20px;
     }
 
     .populaires-cards {
